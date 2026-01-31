@@ -1,15 +1,30 @@
 [
   {
+    "id": "appstore",
+    "name": "App Store",
+    "packageName": "com.hci.appstore",
+    "versionCode": 1,
+    "versionName": "1.0.0",
+    "icon": "https://hubetcardenasi.github.io/AppStoreCatalog/icons/appstore.png",
+    "apk": "https://hubetcardenasi.github.io/AppStoreCatalog/apks/appstore.apk",
+    "shortDescription": "La App Store oficial.",
+    "longDescription": "La App Store oficial de la plataforma HCI.",
+    "sizeBytes": 11757000,
+    "screenshots": [
+      "https://hubetcardenasi.github.io/AppStoreCatalog/screenshots/appstore_1.png"
+    ]
+  },
+  {
     "id": "volado",
-    "name": "Volado Pro",
+    "name": "Volado",
     "packageName": "com.hci.volado",
-    "versionCode": 3,
+    "versionCode": 1,
     "versionName": "1.0.0",
     "icon": "https://hubetcardenasi.github.io/AppStoreCatalog/icons/volado.png",
     "apk": "https://hubetcardenasi.github.io/AppStoreCatalog/apks/volado.apk",
     "shortDescription": "Un volado virtual.",
     "longDescription": "Incluye volado de moneda.",
-    "sizeBytes": 2048000,
+    "sizeBytes": 9379000,
     "screenshots": [
       "https://hubetcardenasi.github.io/AppStoreCatalog/screenshots/volado_1.png",
       "https://hubetcardenasi.github.io/AppStoreCatalog/screenshots/volado_2.png"
@@ -19,13 +34,13 @@
     "id": "watchhome",
     "name": "Watch Home",
     "packageName": "com.hci.watchhome",
-    "versionCode": 5,
+    "versionCode": 1,
     "versionName": "1.0.0",
     "icon": "https://hubetcardenasi.github.io/AppStoreCatalog/icons/watchhome.png",
     "apk": "https://hubetcardenasi.github.io/AppStoreCatalog/apks/watchhome.apk",
     "shortDescription": "Reloj de escritorio.",
     "longDescription": "Convierte tu dispositivo en un reloj de escritorio.",
-    "sizeBytes": 1024000,
+    "sizeBytes": 9313000,
     "screenshots": [
       "https://hubetcardenasi.github.io/AppStoreCatalog/screenshots/watchhome_1.png"
     ]
