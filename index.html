@@ -1,17 +1,220 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="App Store catalog site serving files for the Store app.">
-  <title>Store Catalog</title>
-  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional - Desarrollo de bases de datos y sistemas de software">
+    <title>Portafolio Profesional | HCI</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-popup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Available Catalog</h1>
-  <p>App Store catalog site serving files for the Store app.</p>
-  <hr>
-  <h1>Catálogo disponible</h1>
-  <p>Este sitio sirve archivos para la App Store.</p>
+    <main>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="section-title">Catálogo de Aplicaciones Móviles</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 7V4h16v3M9 20h6M12 4v16"/>
+                                    <rect x="2" y="7" width="20" height="6" rx="1"/>
+                                </svg>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://hubetcardenasi.github.io/AppStore/index.html" target="_blank" title="Ver Proyecto" class="project-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                        <circle cx="12" cy="12" r="3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">AppStore</h3>
+                        <p class="project-subtitle">Catálogo de aplicaciones</p>
+                        <p class="project-description">
+                           Catálogo de aplicaciones móviles para Android.
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>Android App</li>
+                                <li>Desarrollo de aplicación móvil</li>
+                                <li>Jetpack compose</li>
+                                <li>Tienda de aplicaciones</li>
+                            </ul>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Android App</span>
+                            <span class="tag">Desarrollo de aplicación móvil</span>
+                            <span class="tag">Jetpack compose</span>
+                            <span class="tag">Tienda de aplicaciones</span>
+                        </div>
+                        <div class="project-resources">
+                            <h4>Recursos</h4>
+                            <div class="resource-links">
+                                <a href="https://hubetcardenasi.github.io/AppStoreCatalog/apks/appstore.apk" target="_blank" rel="noopener noreferrer" class="resource-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Descargar AppStore App
+                                </a>
+
+                                <a href="https://github.com/hubetcardenasi/AppStore" target="_blank" rel="noopener noreferrer" class="resource-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Ir a repositorio
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 7V4h16v3M9 20h6M12 4v16"/>
+                                    <rect x="2" y="7" width="20" height="6" rx="1"/>
+                                </svg>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" onclick="mostrarPopup(); return false;" target="_blank" title="Ver Proyecto" class="project-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                        <circle cx="12" cy="12" r="3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Volado</h3>
+                        <p class="project-subtitle">$1 MXN</p>
+                        <p class="project-description">
+                            Aplicación móvil para definir si es cara o águila de una moneda de $1 peso mexicano en un volado virtual. 
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>Android App</li>
+                                <li>Desarrollo de aplicación móvil</li>
+                                <li>Probabilidad y estadística</li>
+                                <li>Jetpack compose</li>
+                                <li>Aleatorio</li>
+                            </ul>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Android App</span>
+                            <span class="tag">Desarrollo de aplicación móvil</span>
+                            <span class="tag">Probabilidad y estadística</span>
+                            <span class="tag">Jetpack compose</span>
+                            <span class="tag">Aleatorio</span>
+                        </div>
+                        <div class="project-resources">
+                            <h4>Recursos</h4>
+                            <div class="resource-links">
+                                <a href="https://hubetcardenasi.github.io/AppStoreCatalog/apks/volado.apk" target="_blank" rel="noopener noreferrer" class="resource-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Descargar AppStore App
+                                </a>
+
+                                <a href="https://github.com/hubetcardenasi/Volado" target="_blank" rel="noopener noreferrer" class="resource-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Ir a repositorio
+                                </a>
+
+                                <a href="#" onclick="mostrarPopup(); return false;" target="_blank" rel="noopener noreferrer" class="resource-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Mostrar animación
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 7V4h16v3M9 20h6M12 4v16"/>
+                                    <rect x="2" y="7" width="20" height="6" rx="1"/>
+                                </svg>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://hubetcardenasi.github.io/AppStore/index.html" target="_blank" title="Ver Proyecto" class="project-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                                        <circle cx="12" cy="12" r="3"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Watch Home</h3>
+                        <p class="project-subtitle">Reloj de mesa</p>
+                        <p class="project-description">
+                            Convertir tu celular en un reloj de mesa. 
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>Android App</li>
+                                <li>Desarrollo de aplicación móvil</li>
+                                <li>Jetpack compose</li>
+                                <li>Reciclar</li>
+                            </ul>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Android App</span>
+                            <span class="tag">Desarrollo de aplicación móvil</span>
+                            <span class="tag">Jetpack compose</span>
+                            <span class="tag">Reciclar</span>
+                        </div>
+                        <div class="project-resources">
+                            <h4>Recursos</h4>
+                            <div class="resource-links">
+                                <a href="https://hubetcardenasi.github.io/AppStoreCatalog/apks/watchhome.apk" target="_blank" rel="noopener noreferrer" class="resource-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Descargar AppStore App
+                                </a>
+
+                                <a href="https://github.com/hubetcardenasi/WatchHome" target="_blank" rel="noopener noreferrer" class="resource-link">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Ir a repositorio
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="actualYear">2025</span> HCI. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Popup -->
+    <div class="popup-overlay" id="popup">
+    <div class="popup-content">
+        <img src="assets/volado_animacion.gif" alt="Animación de aplicación Volado" class="project-image" width="180" style="border-radius: 12px;">
+        <p style="color:white; margin-top: 12px;">Procesando...</p>
+        <button class="popup-btn" onclick="cerrarPopup()">Cerrar</button>
+    </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
