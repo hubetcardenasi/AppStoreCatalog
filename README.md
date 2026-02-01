@@ -1,4 +1,4 @@
-# AppStoreCatalog
+# App Store Catalog
 Catálogo de aplicaciones para App Store
 
 ## Proyectos
